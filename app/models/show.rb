@@ -6,7 +6,7 @@ class Show < ActiveRecord::Base
 
   def build_network(attributes)
     binding.pry
-    attributes.each do {|key, value| self.send (networks.key, "value")}
+    # attributes.each do {|key, value| self.send (networks.key, "value")}
 
   end
 
