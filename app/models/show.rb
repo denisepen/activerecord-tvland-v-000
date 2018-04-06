@@ -4,7 +4,7 @@ class Show < ActiveRecord::Base
   belongs_to :networks
 
   def build_network(attributes)
-    # attributes.each do {|key, value| self.send (network.key, "value")}
+    attributes.each do {|key, value| self.send (network.key, "value")}
 
   end
 
