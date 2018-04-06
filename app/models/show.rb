@@ -3,8 +3,8 @@ class Show < ActiveRecord::Base
   has_many :actors, through: :characters
   belongs_to :networks
 
-  def build_network(:call_letters => "value")
-    self.network = "value"
+  def build_network(attributes)
+    attributes.each do {|key, value| self.send (network, "value")
 
   end
 
