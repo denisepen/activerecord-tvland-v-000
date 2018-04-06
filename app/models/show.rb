@@ -5,7 +5,7 @@ class Show < ActiveRecord::Base
 
   # def build_network
   #   # self.networks
-  # 
+  #
   # end
 
 end
