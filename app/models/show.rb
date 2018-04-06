@@ -3,9 +3,9 @@ class Show < ActiveRecord::Base
   has_many :actors, through: :characters
   belongs_to :networks
 
-  def build_network
-    # self.networks
-
-  end
+  # def build_network
+  #   # self.networks
+  # 
+  # end
 
 end
