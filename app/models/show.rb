@@ -9,6 +9,6 @@ class Show < ActiveRecord::Base
   #   # attributes.each do {|key, value| self.send (networks.key, "value")}
   #   self.network = attributes[]
 
-  end
+
 
 end
