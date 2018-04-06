@@ -5,7 +5,7 @@ class Show < ActiveRecord::Base
   belongs_to :networks
 
   def build_network(:call_letters => "NBC" )
-    # binding.pry
+     binding.pry
     # attributes.each do {|key, value| self.send (networks.key, "value")}
     self.network = [:call_letters]
 
