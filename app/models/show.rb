@@ -4,7 +4,7 @@ class Show < ActiveRecord::Base
   belongs_to :networks
 
   def build_network
-    self.networks
+    # self.networks
 
   end
 
